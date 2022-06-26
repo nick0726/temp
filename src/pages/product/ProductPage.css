@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.product-bg {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #b7d4f8 0%, #ffffff 100%);
+}
+
+.product-page-box {
+  width: 1200px;
+  height: 660px;
+  display: flex;
+}
+
+#logo {
+  height: 30px;
+  margin-top: 120px;
+}
+
+/* Anna 위치 조정 */
+.product-bg .product-page-box .product {
+  margin-left: 50px;
+}
+
+.product-bg .product-page-box .product h1 {
+  margin-top: 10px;
+}
+
+.product-bg .product-page-box .product p {
+  margin-top: 15px;
+  line-height: 28px;
+}
+
+.product-bg .product-page-box .product button {
+  margin-top: 15px;
+  width: 200px;
+  height: 64px;
+  background: #024abd;
+  border: 1px solid #bedef0;
+  box-shadow: 0px 3px 25px rgba(93, 151, 243, 0.87);
+  border-radius: 35px;
+  color: white;
+}
+
+.product-bg .product-page-box .product button:hover {
+  background: whitesmoke;
+  color: #024abd;
+  border: #024abd;
+  text-shadow: 0.063rem 0.063rem #c5c5c5;
+}
+
+.product-bg .product-page-box .product .certificate {
+  /* height: 50px; */
+  width: 380px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  text-align: left;
+  background: rgba(84, 113, 160, 0.22);
+  border-radius: 60px;
+  font-size: 0.9em;
+}
+
+.product-bg .product-page-box .product .certificate img {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+/* 제품 이미지 */
+.product-page-box .product-img {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+/*중간 nav와 제품 description*/
+.description-full-box {
+  width: 1440px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-full-box .product-nav {
+  width: 1200px;
+  flex-direction: row;
+  display: flex;
+  margin: 0 auto;
+}
+
+.description-full-box .product-nav .nav-menu {
+  border: 1px solid #e3e3e3;
+  width: 300px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.nav-menu:hover {
+  background: #024abd;
+  color: white;
+}
+
+/*Anna™ 사용 시 아래의 18가지 평형기능 검사가 가능합니다*/
+.inspect-decription-box {
+  width: 1200px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  /* margin-bottom: 120px; */
+}
+
+.inspect-decription-title {
+  margin-left: 50px;
+}
+
+.inspect-decription-box .inspect-decription-title h6 {
+  color: #033079;
+  font-weight: bold;
+}
+
+.inspect-decription-box .inspect-decription-title h4 {
+  margin-top: 15px;
+}
+
+/* 검사 기능 박스 */
+.inspect-decription {
+  display: flex;
+}
+
+.inspect-decription .contents {
+  display: flex;
+  width: 400px;
+  height: 236px;
+  background: #ffffff;
+  border: 2px solid #e3e3e3;
+  /*카드 이미지 쉐도우*/
+  box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.04);
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.inspect-decription .contents  b {
+  color: rgb(189, 181, 181);
+  font-size: 0.8em;
+  /* text-shadow: 0.1px 0.1px #c5c5c5; */
+}
+
+.inspect-decription .contents .twocol-test-contents {
+  display: flex;
+}
+
+.inspect-decription .contents h6 {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+.inspect-decription .contents li {
+  margin-left: 18px;
+  line-height: 28px;
+}
+
+/* 두번째 본문, 요약, "합리적인 초기 비용" */
+#inspect-decription-full-box {
+  width: 100%;
+  background: #f8fafd;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.inspect-decription-box {
+  /* 여기서부터 재개 */
+  margin-top: 120px;
+  padding-bottom: 120px;
+}
+
+.inspect-decription-box .summary-1 {
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  padding-left: 50px;
+}
+
+/* 대각선 카드뷰 옆 & 아래 마진 */
+#summary-1 {
+  margin-bottom: 160px;
+  margin-left: 110px;
+}
+
+.inspect-decription-box .summary-1 .left {
+  width: 600px;
+}
+
+.inspect-decription-box .summary-1 .left img {
+  box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 7px;
+}
+
+.inspect-decription-box .summary-1 .left h4 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.inspect-decription-box .summary-1 .left p {
+  line-height: 28px;
+}
+
+.inspect-decription-box .summary-1 .right {
+  width: 600px;
+  padding-top: 250px;
+}
+
+.inspect-decription-box .summary-1 .right img {
+  box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 7px;
+}
+
+.inspect-decription-box .summary-2 {
+  margin-top: 250px;
+  display: flex;
+  padding-left: 50px;
+}
+
+/* Contents 있는 칸 */
+.inspect-decription-box .summary-2 h4 {
+  margin-bottom: 15px;
+}
+
+.inspect-decription-box .summary-2 p {
+  line-height: 28px;
+}
+
+.inspect-decription-box .summary-2 .left {
+  width: 600px;
+}
+
+/* Contents 있는 칸 */
+.inspect-decription-box .summary-2 .left img {
+  box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 7px;
+}
+
+.inspect-decription-box .summary-2 .right {
+  padding-top: 50px;
+  width: 600px;
+}
+
+.inspect-decription-box .summary-3 {
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  padding-left: 50px;
+}
+
+.inspect-decription-box .summary-3 .left {
+  width: 600px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Contents 있는 칸 */
+.inspect-decription-box .summary-3 .left h4 {
+  margin-bottom: 15px;
+}
+
+.inspect-decription-box .summary-3 .left p {
+  line-height: 28px;
+}
+
+.inspect-decription-box .summary-3 .right {
+  width: 600px;
+  padding-top: 50px;
+}
+
+.inspect-decription-box .summary-3 .right img {
+  box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 7px;
+}
+
+/* Contents 있는 칸 */
+.inspect-decription-box .summary-3 .right h4 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.inspect-decription-box .summary-3 .right p {
+  line-height: 28px;
+}
+
+#table {
+  height: 1080px;
+  margin-top: -80px;
+  border: 2px solid #e3dcdc;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.04);
+}
+
+#table thead,
+tfoot {
+border: 2px solid #e3dcdc;
+background: #F7F7F7;
+height: 50px;
+font-size: 16px;
+font-weight: bold;
+}
+
+#table th {
+  border: 2px solid #e3dcdc;
+}
+
+#table td {
+  border: 2px solid #e3dcdc;
+}
+
+#product-specifications {
+  border: none;
+}
+
+#product-specifications .small-box {
+  border: none;
+}
+
+#product-specifications {
+  margin-top: 80px;
+}
+
+#product-specifications h4 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#FAQ {
+  background: #f8fafd;
+}
+
+#FAQ .middle-box {
+  border: none;
+}
+
+#FAQ-title {
+  padding-left: 50px;
+  border: none;
+}
+
+#FAQ-title h4 {
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#FAQ .middle-box .small-box {
+  flex-direction: column;
+}
+
+.FAQ-contents {
+  width: 1100px;
+  /*질문박스 크기조정*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  margin-top: 30px;
+  cursor: pointer;
+  border: 2px solid #eceff4;
+  border-radius: 5px;
+  
+}
+
+.FAQ-contents h5 {
+  margin-left: 15px;
+}
+
+.FAQ-contents-modal {
+  width: 1100px;
+  padding-top: 8px;
+  padding-left: 42px;
+  padding-bottom: 15px;
+  border-right: 2px solid #eceff4;
+  border-bottom: 2px solid #eceff4;
+  border-left: 2px solid #eceff4;
+}
+
+.FAQ-contents:hover {
+  background: #eceff4;
+}

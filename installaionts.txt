@@ -1,0 +1,4 @@
+npm install // yarn install
+npm install @fullpage/react-fullpage
+npm install bwip-js // yarn add bwip-js
+npm install react-bootstrap bootstrap // yarn add react-bootstrap bootstrap

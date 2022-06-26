@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.RnD-bg {
+  background-image: url("../../images/Research.png");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.bg-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 70px;
+  color: white;
+}
+
+.RnD-bg h2 {
+  margin-bottom: 15px;
+}
+
+#RnD-contents {
+  border: none;
+}
+
+#RnD-contents .small-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  border: none;
+}
+
+#RnD-contents .small-box h2 {
+  margin-bottom: 40px;
+}
+
+#RnD-contents .small-box .thesis {
+  width: 1200px;
+  height: 130px;
+  margin-top: 20px;
+  padding-left: 20px;
+  border: 1px solid #d9d9d9;
+}
+
+#RnD-contents .small-box .thesis h5 {
+  margin-top: 22px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+#RnD-contents .small-box .thesis img {
+  margin-right: 10px;
+}
+
+#thesis {
+  /*논문 박스 세로정렬*/
+  flex-direction: column;
+}
+
+#arrow {
+  margin-left: 450px;
+}
+
+#RnD-contents .small-box .thesis p {
+  margin-left: 15px;
+  line-height: 25px;
+}
+
+/*보유 기술 및 특허*/
+#RnD-certifications {
+  border: none;
+}
+
+#RnD-certifications .small-box {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  flex-direction: column;
+  border: none;
+}
+
+/* small-box */
+#cards {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#cards .certification {
+  margin: 0 auto;
+  width: 270px;
+  text-align: center;
+}
+
+#cards .certification img {
+  width: 250px;
+}
+
+#cards .certification h6 {
+  line-height: 28px;
+}

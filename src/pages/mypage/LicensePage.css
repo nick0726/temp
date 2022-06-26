@@ -1,0 +1,97 @@
+.license-box {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.78em;
+}
+
+.license-title {
+  line-height: 1.8em;
+}
+
+.license-title h1 {
+  color: #024abd;
+  padding-bottom: 0.4em;
+  font-size: 2.1em;
+}
+
+.license-box .license-title-border {
+  border-bottom: 2px solid #dee2e6;
+  padding: 0em 0 2em 0;
+  width: 55vw;
+}
+
+.license-content-box {
+  line-height: 3em;
+  display: flex;
+  width: 700px;
+  height: 270px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  /* border: 3px solid red; */
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 2em;
+  text-align: left;
+}
+
+.license-product-name {
+  text-align: left;
+  padding-left: 4%;
+  padding-top: 23px;
+}
+
+.license-product-name h3 {
+  position: absolute;
+  color: #024abd;
+}
+
+.license-product-name h6 {
+  color: #024abd;
+  /* display:none; */
+}
+
+.license-content-box img {
+  padding: 7% 0 7% 0;
+}
+
+.license-product-isvalid {
+  /* position: absolute; */
+  width: 8vw;
+  /* height: 5.12vh; */
+  height: 40px;
+  margin-left: -14%;
+  /* margin-bottom: 2em; */
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  background: linear-gradient(89.48deg, #024abd -17.94%, #08f0ff 112.97%);
+  border-radius: 0px 15px;
+}
+
+.license-product-isvalid h5 {
+  font-size: 1.1em;
+}
+
+.license-product-specifications {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 10em 15em;
+  grid-template-rows: 10em 5em;
+  column-gap: 1.8em;
+  row-gap: 3em;
+  margin-left: 5em;
+  margin-top: 1.6em;
+  /* padding-bottom: 10em; */
+}
+
+.license-product-specifications h6 {
+  line-height: 2.5em;
+  font-size: 1em;
+}

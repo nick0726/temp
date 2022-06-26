@@ -1,0 +1,164 @@
+.download-box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  /* border: 3px solid red; */
+}
+
+.download-title {
+  display: flex;
+  width: 100%;
+  padding-left: 1.5em;
+  align-items: center;
+  padding-bottom: 1.5em;
+  /* border: 3px solid blue; */
+}
+
+.download-box .download-title h2 {
+  font-size: 1.5em;
+  margin-left: 14%;
+}
+
+.download-box .download-title .download-right-box {
+  display: flex;
+  position: absolute;
+  right: 0;
+  padding-right: 1em;
+  /* margin-left: 1000px; */
+  /* border: 3px solid red; */
+  align-items: center;
+}
+
+.download-box .download-title .download-right-box button {
+  width: 180px;
+  margin-left: 0.6em;
+  padding: 6px 6px;
+  background: transparent;
+  border: 1px solid #000000;
+  border-radius: 35px;
+  font-size: 0.72em;
+  font-weight: bold;
+}
+
+.download-box .download-title .download-right-box .newest-download-btn img {
+  margin: 0 auto;
+  padding: 0 0 0 0.3em;
+}
+
+.download-box .download-title .download-right-box > button > button {
+  border: 3px solid blue;
+}
+
+.download-box .download-title .download-right-box .manual-download-btn img {
+  padding: 0 0 0 0.3em;
+}
+
+.download-box .download-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #EFEFEF;
+  border-bottom: 2px solid #EFEFEF;
+  padding: 0.8em 0 0.8em 0;
+}
+
+.download-nav h2 {
+  font-size: 0.9em;
+  padding-left: 1.5em;
+  cursor: pointer;
+}
+
+.download-cards {
+  width: 700px;
+  height: 200px;
+  margin-top: 1.5em;
+  border: 1px solid #EFEFEF;
+  box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.download-cards .card-left-icon-box {
+  flex: 1.8;
+  /* border: 1px solid #EFEFEF; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-cards .card-left-icon-box img {
+  width: 60px;
+  height: 60px;
+}
+
+.download-cards .card-title {
+  flex: 0.9;
+  border: 1px solid #EFEFEF;
+}
+
+.download-cards .card-description {
+  flex: 5.3;
+  border: 1px solid #EFEFEF;
+}
+
+.download-cards .card-link {
+  flex: 2;
+  border: 1px solid #EFEFEF;
+}
+
+.download-cards .card-title div {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 0.72em;
+  background: #F1F4F5;
+  font-weight: bold;
+  border: 1px solid #EFEFEF;
+}
+
+.download-cards .card-description div {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 0.8em;
+  font-weight: bold;
+  border: 1px solid #EFEFEF;
+}
+
+.download-cards .card-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-cards .card-link button {
+  width: 120px;
+  height: 50px;
+  margin-left: 0.6em;
+  padding: 6px 6px;
+  background: transparent;
+  border: 2px solid #EFEFEF;
+  border-radius: 35px;
+  font-size: 0.72em;
+  font-weight: bold;
+}
+
+Table {
+  margin-top: 1.5em;
+  font-size: 0.75em;
+}
+
+.thead {
+  background: #FAFAFB;
+  /* background: #DAE1E7; */
+  text-align: center;
+}
+
+.span3 {
+  width: 700px;
+}

@@ -1,0 +1,7 @@
+.middle-box {
+  width: 1440px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  border: 1px solid blue;
+}
